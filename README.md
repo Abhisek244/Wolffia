@@ -1,5 +1,5 @@
-This repository contains the codes used for single-nuclei RNA-Seq (snRNA-Seq) and single-nuclei ATAC-Seq (snATAC-Seq) data analysis of Wolffia microscopica
-
+This repository contains the codes used for single-nuclei RNA-Seq (snRNA-Seq) and single-nuclei ATAC-Seq (snATAC-Seq) data analysis of _Wolffia microscopica
+_
 **snRNA-Seq analysis**
 
 CellRanger.sh - Commands for mapping the snRNA-Seq reads onto W. microscopica reference genome and constructing the gene-count matrix
