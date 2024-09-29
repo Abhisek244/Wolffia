@@ -1,9 +1,13 @@
 #This repository contains the codes used for single-nuclei RNA-Seq (snRNA-Seq) and single-nuclei ATAC-Seq (snATAC-Seq) data analysis of Wolffia microscopica
 
 #snRNA-Seq analysis
+
 CellRanger.sh - Commands for mapping the snRNA-Seq reads onto W. microscopica reference genome and constructing the gene-count matrix
+
 snRNA_analysis.R - R script to process the gene-count matrix (constructed using CellRanger.sh) using Seurat to construct the single-nuclei clusters
+
 Monocle3.R - R script to perform developmental trajectory and pseudotime analysis using the single-nuclei clusters obtained using snRNA_analysis.R
+
 Wolffia_Integrated.R - R script to merge the snRNA-Seq dataset of W. microscopica and W. australiana for a comparative analysis
 
 ----------------
